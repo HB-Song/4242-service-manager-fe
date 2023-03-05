@@ -1,0 +1,27 @@
+.container {
+  border: none;
+  border-radius: 12px;
+  min-width: 130px;
+  height: 90px;
+  display: flex;
+  background-color: #fee500;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.symbolWrapper {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+}
+
+.labelWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 10;
+  height: 100%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+}
