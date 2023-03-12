@@ -10,13 +10,12 @@ export default function Home() {
 
   useEffect(() => {
     const getToken = async () => {
-      const result = await fetch(`/api/kakao-login?code=${code}`, {
+      await fetch(`/api/kakao-login?code=${code}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
         },
       });
-      console.log(result);
     };
 
     if (code) {
